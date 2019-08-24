@@ -14,6 +14,7 @@
         max-width: 1200px;
         padding: 0 25px;
         margin: 0 auto;
+        overflow: hidden;
     }
     
     /* header*/
@@ -49,6 +50,7 @@
         background-size: cover;
         width: 100%;
         padding-bottom: 632px;
+        display:flex;
     }
     .sub-heading {
         text-align: center;
@@ -60,7 +62,7 @@
     .main-heading {
         text-align: center;
         color: #5e0a0a;
-        font-size: 34px;
+        font-size: 32px;
         padding-top: 16px;
         font-family: lato;
         letter-spacing: 0.5px;
@@ -68,17 +70,17 @@
     }
     .main-button {
         text-decoration: none;
-        font-size: 15px;
+        font-size: 13px;
         color: #ffffff;
         text-align: center;
-        padding: 6px 9px;
+        padding: 13px 29px;
         font-family: 'Lato', sans-serif;
         font-weight: 600;
         display: inline-block;
         background-color: #078fc9;
         border-radius: 7px;
         letter-spacing: 1px;
-        margin: 21px 176px;
+        margin: 21px 132px;
     }
 
      /*slider*/
@@ -97,7 +99,6 @@
     h2.wel-heading {
         margin: 15px 0 10px 0;
         font-family: lato;
-        color: #;
         color: #078fc9;
     }
     h4.wel-subheading {
@@ -123,7 +124,7 @@
         background-color: #078fc9;
         border-radius: 7px;
         letter-spacing: 1px;
-        margin: 21px 124px;
+        margin: 21px 134px;
     }
     .wel-img img {
         width: 100%;
@@ -131,6 +132,18 @@
     }
 
     /* services */
+    .service-one {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .service-two {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
     .services {
         background: #f2f2f2;
     }
@@ -191,6 +204,10 @@
     /* contact */
     .contact {
         background: #7caf22;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     h2.book-heading {
         font-family: lato;
@@ -212,7 +229,7 @@
     }
     .form-fmo {
         height: 83px;
-        width: 96%;
+        width: 100%;
         border: 1px solid gray;
         margin-bottom: 20px;
         border-radius: 12px;
@@ -266,6 +283,10 @@
     }
     .address {
         background: #2890cf;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     .address-img img {
         width: 23%;
@@ -295,6 +316,12 @@
     }
 
     /* location */
+    .testimonials {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
     h2.testimonials-heading {
         font-family: lato;
         text-align: center;
@@ -347,8 +374,12 @@
     /*footer-main*/
     .footer-mob {
         display: block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
     }
-    .footer-pc {
+    .footer-pc{
         display: none;
     }
     footer {
@@ -387,23 +418,26 @@
     }
     ul.follow-list {
         display: flex;
-        margin-left: 78px;
     }
     ul.follow-list img {
         width: 33px;
         padding: 11px;
         margin-top: 20px;
+        margin-bottom: 25px;
     }
     h3.follow-us-hd {
         font-family: lato;
-        text-align: center;
     }
     footer-sub {
         background: #7caf22;
         text-align: center;
-        padding: 2px 176px;
+        padding: 12px 127px;
         letter-spacing: 0.5px;
         color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     html {
         scroll-behavior: smooth
@@ -613,7 +647,7 @@
             background-color: #078fc9;
             border-radius: 7px;
             letter-spacing: 1px;
-            margin: 21px 238px 50px;
+            margin: 21px 174px 50px;
         }
         .contact-mob {
             display: flex;
@@ -632,7 +666,6 @@
             border: 1px solid gray;
             border-radius: 12px;
             margin-bottom: 28px;
-            margin-left: 123px;
             width: 66%;
         }
         input.form-date {
@@ -641,8 +674,6 @@
             border: 1px solid gray;
             border-radius: 12px;
             margin-bottom: 15px;
-            margin-left: 123px;
-            width: 125px;
         }
         input.form-time {
             padding: 20px 0 16px 0;
@@ -650,8 +681,7 @@
             border: 1px solid gray;
             border-radius: 12px;
             margin-bottom: 28px;
-            margin-left: 10px;
-            width: 120px;
+            width: 50%;
         }
         .form-fm {
             padding: 20px 0 16px 0;
@@ -659,8 +689,7 @@
             border: 1px solid gray;
             border-radius: 12px;
             margin-bottom: 28px;
-            width: 120%;
-            margin-left: 25px;
+            width: 100%
         }
         .submit-button {
             text-decoration: none;
@@ -674,7 +703,6 @@
             background-color: #fff;
             border-radius: 7px;
             letter-spacing: 1px;
-            margin: 21px 269px;
         }
         h2.book-heading {
             font-family: lato;
@@ -687,21 +715,20 @@
         }
         .address-img img {
             width: 20%;
-            padding: 42px 0 60px 110px;
+            padding: 42px 0 60px 0px;
         }
         .form-fmo {
             height: 83px;
-            width: 91%;
+            width: 83%;
             border: 1px solid gray;
             margin-bottom: 20px;
             border-radius: 12px;
-            margin-left: 25px;
         }
         h3.address-heading {
             font-family: lato;
             font-size: 21px;
             margin-left: -94px;
-            padding: 60px 0 10px;
+            padding: 44px 0 10px;
             color: #fff;
         }
         p.address-para {
@@ -726,7 +753,7 @@
         }
         ul.indicators {
             align-items: center;
-            margin: -20px 254px 25px;
+            margin: -24px 185px 17px;
         }
         .home {
             display: block;
@@ -738,6 +765,9 @@
         }
         .footer-pc {
             display: block;
+        }
+        .footer-pc {
+            background: #eef3f9:
         }
         h3.quck-link-hd {
             font-size: 21px;
@@ -759,6 +789,7 @@
         }
         .logopara {
             width: 25%;
+            margin-left: 89px;
         }
         .quck-link {
             width: 25%;
@@ -779,9 +810,7 @@
         footer-sub {
             background: #7caf22;
             text-align: center;
-            padding: 2px 590px;
             letter-spacing: 0.5px;
-            width: 102%;
             color: #fff;
         }
         h3.home-hd {
@@ -802,12 +831,15 @@
             font-size: 15px;
         }
         ul.follow-list img {
-            width: 45px;
-            padding: 0px 7px 10px 21px;
-            margin-top: 20px;
+            padding: 0px 0px 0px 21px;
+        }
+        ul.follow-list img {
+            width: 33px;
+            margin-top: 0px;
         }
         h3.follow-us-hd {
             font-family: lato;
+            margin-bottom: 25px;
         }
         .fade-in {
             opacity: 1;
